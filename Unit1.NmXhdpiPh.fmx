@@ -1,0 +1,35 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Panel1: TPanel
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    inherited TabControl1: TTabControl
+      Size.Width = 400.000000000000000000
+      Size.Height = 615.000000000000000000
+      inherited TabItem1: TTabItem
+        Size.Width = 200.000000000000000000
+      end
+      inherited TabItem2: TTabItem
+        Size.Width = 200.000000000000000000
+      end
+    end
+    inherited DisplayR: TMemo
+      Size.Width = 400.000000000000000000
+      Viewport.Width = 392.000000000000000000
+      Viewport.Height = 224.000000000000000000
+    end
+  end
+  object AniIndicator1: TAniIndicator
+    Position.Y = 192.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 66.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 500
+    Left = 192
+  end
+end
